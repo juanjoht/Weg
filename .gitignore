@@ -1,0 +1,8 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/WegGridApplication/WebGridDb
+/WegGridCore/Migrations/20240307221200_AddGridTablesToDB.cs
+/WegGridApplication/WegGridDb.db
+/WegGridApplication/WebGridDb.db
