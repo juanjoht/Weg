@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WegGridApplication", "WegGridApplication.csproj", "{012FDD5B-D45E-4A86-97A5-E73E662DD831}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WegGridCore", "..\WegGridCore\WegGridCore.csproj", "{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WegGridTest", "..\WegGridTest\WegGridTest.csproj", "{5F8D933C-BDFA-45BA-8EA2-A4A96B552D7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{012FDD5B-D45E-4A86-97A5-E73E662DD831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{012FDD5B-D45E-4A86-97A5-E73E662DD831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{012FDD5B-D45E-4A86-97A5-E73E662DD831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{012FDD5B-D45E-4A86-97A5-E73E662DD831}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F8D933C-BDFA-45BA-8EA2-A4A96B552D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F8D933C-BDFA-45BA-8EA2-A4A96B552D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F8D933C-BDFA-45BA-8EA2-A4A96B552D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F8D933C-BDFA-45BA-8EA2-A4A96B552D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFAEB3DF-3AD1-4332-8AE0-F43AC2D19663}
+	EndGlobalSection
+EndGlobal

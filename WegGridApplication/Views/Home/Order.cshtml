@@ -1,0 +1,334 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<style>
+    #SimplyDesign {
+        margin-top: 20px;
+    }
+        .with-border
+        {
+            border: 1px solid black;
+        }
+
+        .remove-border
+        {
+        border: 1px solid white;
+        }
+</style>
+<form action="@Url.Action("setOrder", "Home")" method="post" id="form_main" class="row g-3 needs-validation">
+    <div class="col-md-3">
+        <label for="InputTotalLongFence" class="form-label">Largo Total Cerca (Mts)</label>
+        <input step="0.01" min="0" type="number" class="form-control" id="InputTotalLongFence" required>
+    </div>
+    <div class="col-md-3">
+        <label for="inputHeightFence" class="form-label">Altura Cerca</label>
+        <select id="inputHeightFence" class="form-select" asp-items="@ViewBag.heightsList" required>
+            <option selected disabled value="">Seleccione Uno...</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <label for="inputColorFence" class="form-label">Color Cerca</label>
+        <select id="inputColorFence" class="form-select" asp-items="@ViewBag.colorsList" required>
+            <option selected disabled value="">Seleccione Uno...</option>
+        </select>
+    </div>
+    <div class="col-md-3 align-self-end">
+        <button type="submit" id="confirm-button" class="btn btn-primary">Confirmar</button>
+        <button type="button" id="Clear" class="btn btn-outline-primary">Limpiar</button>
+    </div>
+</form>
+
+<div class="accordion d-none mt-4" id="accordionPanelsStayOpen">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Detalle del Pedido
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+              <div class="form-row row align-items-center">
+                    <div class="col-sm-4 my-1">
+                        <label class="form-label" for="inputOrderDate">Fecha Pedido</label>
+                        <input type="text" class="form-control" readonly id="inputOrderDate" placeholder="Fecha Pedido">
+                    </div>
+                    <div class="col-sm-4 my-1">
+                        <label class="form-label" for="inputHeightFenceValue">Alto Cerca</label>
+                        <input type="text" class="form-control" readonly id="inputHeightFenceValue" placeholder="Alto Cerca">
+                    </div>
+                    <div class="col-sm-4 my-1">
+                        <label class="form-label" for="inputColorFenceValue">Color Cerca</label>
+                        <input type="text" class="form-control" readonly id="inputColorFenceValue" placeholder="Color Cerca">
+
+                    </div>
+              </div>
+              <div class="form-row row align-items-center">
+                    <div class="col-sm-4 my-1">
+                        <label class="form-label" for="inputLongFence">Largo Total Cerca</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" readonly id="inputLongFence" placeholder="Largo Total Cerca">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">Mts</div>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-4 my-1">
+                        <label class="form-label" for="inputLongGrid">Largo Reja</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" readonly id="inputLongGrid" placeholder="Largo Reja">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">Mts</div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-sm-4 my-1">
+                  <label class="form-label" for="inlineFormInputGroupUsername">Diferencia Entre Largo Cerca y Largo Reja</label>
+                  <div class="input-group">
+                            <input type="text" class="form-control" readonly id="inputDiffLongFenceAndGrid" placeholder="Diferencia Entre Largo Cerca y Largo Reja">
+                      <div class="input-group-prepend">
+                          <div class="input-group-text">Mts</div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                Diseño Simplificado
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                         </div>
+                         <div class="col-sm-4">
+                            <label class="form-label" for="inputGridAmount">Cantidad de rejas necesarias para la cerca</label>
+                            <input type="text" class="form-control" readonly id="inputGridAmount" placeholder="Cantidad de Rejas">
+                         </div>
+                        <div class="col-sm-4">
+                            <label class="form-label" for="inputGridPost">Cantidad de postes necesarios para la cerca</label>
+                            <input type="text" class="form-control" readonly id="inputGridPost" placeholder="Cantidad de Postes">
+                        </div>
+                    </div>
+                    <div class="row align-items-center">
+                        <div class="col-sm-4 form-inline">
+                                <label class="form-label" for="inlineFormInputHeight">Altura Cerca</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" readonly id="inlineFormInputHeight" placeholder="Altura Cerca">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">Mts</div>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <table id="SimplyDesign"  class="table with-border table-border table-hover table-responsive table-sm">
+                                <tbody class="grid-canvas">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4" ></div>
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-4 align-items-center">
+                            <label class="form-label" for="inlineFormInputLong">Largo Total Cerca</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" readonly id="inlineFormInputLong" placeholder="Largo Cerca">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">Mts</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-sm-4">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="form-label" for="inputGridFixers">Cantidad de Fijadores necesarios para la cerca</label>
+                            <input type="text" class="form-control" readonly id="inputGridFixers" placeholder="Cantidad de Fijadores">
+                        </div>
+                        <div class="col-sm-4">
+                            <label class="form-label" for="inputGridScrews">Cantidad de Tornillos necesarios para la cerca</label>
+                            <input type="text" class="form-control" readonly id="inputGridScrews" placeholder="Cantidad de Tornillos">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
+                Historico de Pedidos
+            </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show">
+            <div class="accordion-body">
+                    <table class="table" id="historicalData">
+                            <thead>
+                                <tr>
+                                <th scope="col">Fecha Pedido</th>
+                                <th scope ="col" >Largo Total de la Cerca</th>
+                                <th scope="col">Altura de la Cerca</th>
+                                <th scope="col">Color de la Cerca</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tBodyHistorical">
+                            </tbody>
+                        </table>   
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        $(function () {
+            const forms = document.querySelectorAll('.needs-validation')
+            Array.from(forms).forEach(form => {
+                form.addEventListener('submit', event => {
+                    if (!form.checkValidity()) {
+                        event.preventDefault()
+                        event.stopPropagation()
+                    }
+
+                    form.classList.add('was-validated');
+                    event.preventDefault();
+                    setDetails();
+                }, false);
+            })
+            $("#Clear").on("click", function () {
+                reset();
+            })
+        });
+        function setDetails() {
+            const url = "@Url.Action("setOrder", "Home")";
+            const order = {
+                TotalLongFence: parseFloat(form_main.InputTotalLongFence.value),
+                HeightFenceId: parseInt(form_main.inputHeightFence.value),
+                ColorFenceId: parseInt(form_main.inputColorFence.value)
+            }
+            $.post(url, { orderRequestJson: JSON.stringify(order) }, function (data) {
+                if (data !== undefined || data !== '') {
+                    const jsonListHeights = '@Html.Raw(Json.Serialize(ViewBag.heightsList))'
+                    const jsListHeights = JSON.parse(jsonListHeights);
+                    const heightFenceValue = jsListHeights.find(x => parseInt(x.value) === data.heightFenceId).text;
+                    const jsonListColors = '@Html.Raw(Json.Serialize(ViewBag.colorsList))'
+                    const jsListColors = JSON.parse(jsonListColors);
+                    const colorFenceValue = jsListColors.find(x => parseInt(x.value) === data.colorFenceId).text;
+                    setDataDetailOrder(data, heightFenceValue, colorFenceValue);
+                    setDataSimplifyDesign(data, heightFenceValue, colorFenceValue);
+                    setDataHistorical(data);
+                }
+            });
+        }
+        function setDataDetailOrder(data,heightFenceValue, colorFenceValue) {
+
+            const newOrderDate = new Date(data.orderDate);
+            const yyyy = newOrderDate.getFullYear();
+            let mm = newOrderDate.getMonth() + 1;
+            let dd = newOrderDate.getDate();
+            const formattedOrderDate = dd + '/' + mm + '/' + yyyy
+            $("#accordionPanelsStayOpen").removeClass('d-none');
+            $("#inputOrderDate").val(formattedOrderDate);
+            $("#inputLongFence").val(data.totalLongFence);
+            $("#inputHeightFenceValue").val(heightFenceValue);
+            $("#inputColorFenceValue").val(colorFenceValue);
+            $("#inputLongGrid").val(data.totalLongGrid);
+            $("#inputDiffLongFenceAndGrid").val(data.differenceFenceGrid);
+        }
+        function setDataSimplifyDesign(data, heightFenceValue, colorFenceValue) {
+            $("#inlineFormInputHeight").val(heightFenceValue);
+            $("#inlineFormInputLong").val(data.totalLongFence);
+
+            var body = $('.grid-canvas');
+            body.html('');
+            const numOfCol = data.amountGrid;
+            for (var i = 1; i <= 10; i++) {
+                let row = $('<tr class="with-border"></tr>');
+                for (col = 1; col <= numOfCol; col++) {
+                    row.append('<td class="with-border"></td>');
+                }
+                body.append(row);
+            }
+
+            $("#inputGridAmount").val(numOfCol);
+            let posts = numOfCol + 1
+            $('#inputGridPost').val(posts);
+            let fixers = 0;
+            switch (heightFenceValue) {
+                case "1.03 Mts":
+                    fixers = 3;
+                    break;
+                case "1.53 Mts":
+                    fixers = 4;
+                    break;
+                case "2.03 Mts":
+                    fixers = 6;
+                    break;
+            }
+            $("#inputGridFixers").val(posts * fixers);
+            $("#inputGridScrews").val(posts * 4);
+
+            //put color table
+            switch (colorFenceValue) {
+                case "Sin Pintura":
+                case "Blanca":
+                    $('.table-border').find('tr').removeClass('table-success');
+                    $('.table-border').find('tr').removeClass('table-dark');
+                    $('.table-border').find('tr').addClass('with-border');
+                    $('.table-border').find('tr').addClass('table-light');
+                    break;
+                case "Negra":
+                    $('.table-border').find('tr').removeClass('table-success');
+                    $('.table-border').find('tr').removeClass('table-light');
+                    $('.table-border').toggleClass('with-border remove-border');
+                    $('.table-border').find('tr').toggleClass('with-border remove-border');
+                    $('.table-border').find('tr').find('td').toggleClass('with-border remove-border');
+                    $('.table-border').find('tr').addClass('table-dark');
+                    break;
+                case "Verde":
+                    $('.table-border').find('tr').removeClass('table-dark');
+                    $('.table-border').find('tr').removeClass('table-light');
+                    $('.table-border').find('tr').addClass('with-border');
+                    $('.table-border').find('tr').addClass('table-success');
+                    break;
+
+            }
+        }
+
+        function setDataHistorical(data) {
+            $('#tBodyHistorical').html('');
+            let orderList = [];
+            orderList = data.orderList;
+            orderList.forEach((element) => {
+                tr = $('<tr/>');
+                tr.append("<td>" + element.orderDateFormat + "</td>");
+                tr.append("<td>" + element.totalLongFence + "</td>");
+                tr.append("<td>" + element.heightFence + "</td>");
+                tr.append("<td>" + element.colorFence + "</td>");
+                $('#tBodyHistorical').append(tr);
+            });
+        }
+
+        function reset() {
+            $('#form_main').trigger("reset");
+            $('.accordion').find('input').val('');
+            $("#accordionPanelsStayOpen").addClass('d-none');
+            $('.grid-canvas').html('');
+            $('#tBodyHistorical').html('');
+        }
+    </script>   
+}
+
