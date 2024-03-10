@@ -1,0 +1,15 @@
+C:\Projects\Weg\WegGridCore\bin\Debug\net8.0\WegGridCore.deps.json
+C:\Projects\Weg\WegGridCore\bin\Debug\net8.0\WegGridCore.runtimeconfig.json
+C:\Projects\Weg\WegGridCore\bin\Debug\net8.0\WegGridCore.dll
+C:\Projects\Weg\WegGridCore\bin\Debug\net8.0\WegGridCore.pdb
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.csproj.AssemblyReference.cache
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.AssemblyInfoInputs.cache
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.AssemblyInfo.cs
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.csproj.CoreCompileInputs.cache
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.dll
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\refint\WegGridCore.dll
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.pdb
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.genruntimeconfig.cache
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\ref\WegGridCore.dll
+C:\Projects\Weg\WegGridCore\bin\Debug\net8.0\appsettings.Development.json
