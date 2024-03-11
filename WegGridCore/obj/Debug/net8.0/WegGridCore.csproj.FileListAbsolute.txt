@@ -13,3 +13,4 @@ C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.pdb
 C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.genruntimeconfig.cache
 C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\ref\WegGridCore.dll
 C:\Projects\Weg\WegGridCore\bin\Debug\net8.0\appsettings.Development.json
+C:\Projects\Weg\WegGridCore\obj\Debug\net8.0\WegGridCore.sourcelink.json
