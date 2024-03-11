@@ -1,0 +1,676 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\Weg\\WegGridApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\views\\home\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:views\\home\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\data\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\models\\orderresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:models\\orderresultmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:helpers\\mappingprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\model\\ordermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\weggridapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:weggridapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\models\\orderrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:models\\orderrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\ef\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\data\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8D933C-BDFA-45BA-8EA2-A4A96B552D7B}|..\\WegGridTest\\WegGridTest.csproj|c:\\projects\\weg\\weggridtest\\ordertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\core\\calculategridlong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\core\\calculatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\core\\icalculatefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\core\\calculatetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\core\\calculateamountgrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\core\\calculatedifferencelong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8D933C-BDFA-45BA-8EA2-A4A96B552D7B}|..\\WegGridTest\\WegGridTest.csproj|c:\\projects\\weg\\weggridtest\\calculatetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8D933C-BDFA-45BA-8EA2-A4A96B552D7B}|..\\WegGridTest\\WegGridTest.csproj|c:\\projects\\weg\\weggridtest\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\core\\icalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F8D933C-BDFA-45BA-8EA2-A4A96B552D7B}|..\\WegGridTest\\WegGridTest.csproj|c:\\projects\\weg\\weggridtest\\appsettings.test.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\weggridcore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\migrations\\datacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\data\\heightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\model\\colorfencemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\data\\colorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\data\\icolorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\data\\iheightrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B5FE5C0-FFC1-4A29-A9B3-8356A096EC33}|..\\WegGridCore\\WegGridCore.csproj|c:\\projects\\weg\\weggridcore\\model\\heightfencemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|c:\\projects\\weg\\weggridapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{012FDD5B-D45E-4A86-97A5-E73E662DD831}|WegGridApplication.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Dto\\OrderDto.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Dto\\OrderDto.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Dto\\OrderDto.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Dto\\OrderDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBIAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T20:01:37.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T18:54:20.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WegGridApplication",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\WegGridApplication.csproj",
+              "RelativeDocumentMoniker": "WegGridApplication.csproj",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\WegGridApplication.csproj",
+              "RelativeToolTip": "WegGridApplication.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-07T18:15:13.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Model\\OrderModel.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Model\\OrderModel.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Model\\OrderModel.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Model\\OrderModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T22:02:45.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfiles.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Helpers\\MappingProfiles.cs",
+              "RelativeDocumentMoniker": "Helpers\\MappingProfiles.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Helpers\\MappingProfiles.cs",
+              "RelativeToolTip": "Helpers\\MappingProfiles.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T22:48:22.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Views\\Home\\Order.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Order.cshtml",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Views\\Home\\Order.cshtml",
+              "RelativeToolTip": "Views\\Home\\Order.cshtml",
+              "ViewState": "AQIAAC8BAAAAAAAAAAAEwEcBAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T22:15:46.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Data\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Data\\OrderRepository.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Data\\OrderRepository.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Data\\OrderRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAArwCYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T20:34:48.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAADMAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T22:14:51.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderResultModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Models\\OrderResultModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderResultModel.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Models\\OrderResultModel.cs",
+              "RelativeToolTip": "Models\\OrderResultModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAuwAYAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T20:46:38.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderRequestModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Models\\OrderRequestModel.cs",
+              "RelativeDocumentMoniker": "Models\\OrderRequestModel.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Models\\OrderRequestModel.cs",
+              "RelativeToolTip": "Models\\OrderRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T01:12:47.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\EF\\DataContext.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\EF\\DataContext.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\EF\\DataContext.cs",
+              "RelativeToolTip": "..\\WegGridCore\\EF\\DataContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T21:56:55.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Data\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Data\\IOrderRepository.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Data\\IOrderRepository.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Data\\IOrderRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAArwA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T20:10:30.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderTest.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridTest\\OrderTest.cs",
+              "RelativeDocumentMoniker": "..\\WegGridTest\\OrderTest.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridTest\\OrderTest.cs",
+              "RelativeToolTip": "..\\WegGridTest\\OrderTest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAawA0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T20:44:49.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CalculateGridLong.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateGridLong.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Core\\CalculateGridLong.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateGridLong.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Core\\CalculateGridLong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T18:44:58.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CalculateFactory.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateFactory.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Core\\CalculateFactory.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateFactory.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Core\\CalculateFactory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T03:34:23.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICalculateFactory.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Core\\ICalculateFactory.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Core\\ICalculateFactory.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Core\\ICalculateFactory.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Core\\ICalculateFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T03:28:45.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CalculateType.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateType.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Core\\CalculateType.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateType.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Core\\CalculateType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T03:29:48.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CalculateAmountGrid.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateAmountGrid.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Core\\CalculateAmountGrid.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateAmountGrid.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Core\\CalculateAmountGrid.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T19:16:14.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridTest\\Startup.cs",
+              "RelativeDocumentMoniker": "..\\WegGridTest\\Startup.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridTest\\Startup.cs",
+              "RelativeToolTip": "..\\WegGridTest\\Startup.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-09T17:17:28.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CalculateDifferenceLong.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateDifferenceLong.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Core\\CalculateDifferenceLong.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Core\\CalculateDifferenceLong.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Core\\CalculateDifferenceLong.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T19:27:28.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CalculateTest.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridTest\\CalculateTest.cs",
+              "RelativeDocumentMoniker": "..\\WegGridTest\\CalculateTest.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridTest\\CalculateTest.cs",
+              "RelativeToolTip": "..\\WegGridTest\\CalculateTest.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAA5wCwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-10T04:00:06.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICalculate.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Core\\ICalculate.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Core\\ICalculate.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Core\\ICalculate.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Core\\ICalculate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T18:44:11.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T22:16:08.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T22:16:43.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-07T18:23:08.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.test.json",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridTest\\appsettings.test.json",
+              "RelativeDocumentMoniker": "..\\WegGridTest\\appsettings.test.json",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridTest\\appsettings.test.json",
+              "RelativeToolTip": "..\\WegGridTest\\appsettings.test.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-09T22:00:48.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "WegGridCore",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\WegGridCore.csproj",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\WegGridCore.csproj",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\WegGridCore.csproj",
+              "RelativeToolTip": "..\\WegGridCore\\WegGridCore.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-07T21:56:44.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DataContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Migrations\\DataContextModelSnapshot.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Migrations\\DataContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Migrations\\DataContextModelSnapshot.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T23:31:17.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "HeightRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Data\\HeightRepository.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Data\\HeightRepository.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Data\\HeightRepository.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Data\\HeightRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T15:02:45.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IColorRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Data\\IColorRepository.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Data\\IColorRepository.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Data\\IColorRepository.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Data\\IColorRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T16:36:44.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ColorRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Data\\ColorRepository.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Data\\ColorRepository.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Data\\ColorRepository.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Data\\ColorRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-08T16:37:29.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ColorFenceModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Model\\ColorFenceModel.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Model\\ColorFenceModel.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Model\\ColorFenceModel.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Model\\ColorFenceModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T22:02:02.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HeightFenceModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Model\\HeightFenceModel.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Model\\HeightFenceModel.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Model\\HeightFenceModel.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Model\\HeightFenceModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T22:02:35.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IHeightRepository.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridCore\\Data\\IHeightRepository.cs",
+              "RelativeDocumentMoniker": "..\\WegGridCore\\Data\\IHeightRepository.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridCore\\Data\\IHeightRepository.cs",
+              "RelativeToolTip": "..\\WegGridCore\\Data\\IHeightRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T23:33:09.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-07T22:22:44.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T22:22:00.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-03-07T22:17:25.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-07T22:18:16.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-07T21:27:19.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\Weg\\WegGridApplication\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Projects\\Weg\\WegGridApplication\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-07T17:49:08.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

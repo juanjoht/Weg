@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WegGridCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39560043125798d0a568b0c362307804ba7daa6c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fa99901a10ee81a7214779f89727994d1b6afe5")]
 [assembly: System.Reflection.AssemblyProductAttribute("WegGridCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WegGridCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
