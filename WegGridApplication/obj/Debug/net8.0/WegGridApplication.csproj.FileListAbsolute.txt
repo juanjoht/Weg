@@ -133,3 +133,4 @@ C:\Projects\Weg\WegGridApplication\bin\Debug\net8.0\xunit.core.dll
 C:\Projects\Weg\WegGridApplication\bin\Debug\net8.0\xunit.execution.dotnet.dll
 C:\Projects\Weg\WegGridApplication\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Projects\Weg\WegGridApplication\bin\Debug\net8.0\AutoMapper.dll
+C:\Projects\Weg\WegGridApplication\obj\Debug\net8.0\WegGridApplication.sourcelink.json
